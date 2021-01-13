@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>GIRL SHOP</title>
+	<!--BOOTSTRAP DESDE CDN-->
+
+	
+<link  rel="icon"   href="img/fav.png" type="image/png" />
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap" rel="stylesheet"> 
+	<style>
+		header{
+			background:url('img/portada.jpg');
+			background-attachment: fixed;
+			height: 100vh;
+			/*Background SIZE cover es para  es para ajustar el tamaño de la iamgen en el header*/
+			background-size: cover;
+		}
+
+		header h1{
+			font-family: 'Delius Unicase', cursive;
+			
+		}
+		.fondo-blanco{
+
+			background-color: rgba(255,255,255,0.6);
+		}
+
+		h2{
+			font-family: 'Delius Unicase', cursive;
+			background-color:  #f1948a ;
+			color: #fff;
+		}
+		.precio{
+			color:#f1948a ;
+		}
+
+		.btnRosa{
+			color: #fff;
+			background-color:  #f1948a ;
+			border: 1px solid #f1948a;
+   		 	border-radius: 25px;
+		}
+		.btnWhats{
+			bottom: 70px;
+			right: 60px;
+			width: 50px;
+		}
+		.btnFacebook{
+			bottom: 70px;
+			right: 120px;
+			width: 50px;
+		}
+
+		.btnInstagram{
+			bottom: 70px;
+			right: 180px;
+			width: 50px;
+		}
+
+		.btnInstagram:hover{
+		transform:rotate(360deg);
+			transition: 1s;
+
+		}
+		.btnFacebook:hover{
+		transform:rotate(360deg);
+			transition: 1s;
+
+		}
+		.btnWhats:hover{
+			transform:rotate(360deg);
+			transition: 1s;
+		}
+
+	</style>
+</head>
+<body id="inicio">
+	<input type="hidden" id="inicio">
+	<nav class="bg-danger sticky-top shadow-lg">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-4 text-center p-2">
+					<img src="img/logo.png" alt="Logo de Girl Shop">
+				</div>
+				<div class="col-12 col-md-8 text-right d-none d-md-block">
+					<ul class="mb-0 ">
+						<li class="d-inline-block p-3"><a class="lead text-white text-decoration-none " href="#inicio">Inicio</a></li>
+						<li class="d-inline-block p-3"><a class="lead text-white text-decoration-none" href="#tienda">Tienda</a></li>
+						<li class="d-inline-block p-3"><a class="lead text-white text-decoration-none" href="#rebajas">Rebajas</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<header>
+		<div class="container h-100" >
+			<div class="row h-100">
+			
+				<div id="	tienda" class="col-12 h-auto align-self-center rounded-pill text-center fondo-blanco py-5 shadow-lg >">
+					<h1 class="display-1 text-danger" >GIRL SHOP</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="container ">
+			<!---SECCION DE TIENDA-->
+			<div class="row py-5 " >
+				<div class="col-12 text-center mb-5">
+					<h2 class="d-inline-block p-3 rounded">Tienda</h2>
+				</div>
+				<div class="col-12 col-md-4 mb-3 border-bottom text-center">
+					<img class="img-fluid"src="img/producto1.png" alt="Calcetas">
+					<h3 class="py-3">Calcetines</h3>
+					<span class="d-block precio lead font-weight-bolder pb-3">$350 <sup>mxn</sup></span>
+					<button class="btnRosa px-5 mb-3 py-2">Comprar</button>
+				</div>
+				<div class="col-12 col-md-4 mb-3 text-center border-bottom">
+					<img class="img-fluid"src="img/producto2.png" alt="Calcetas">
+					<h3 class="py-3">Crema</h3>
+					<span class="d-block precio lead font-weight-bolder pb-3">$350 <sup>mxn</sup></span>
+					<button class="btnRosa px-5 mb-3 py-2">Comprar</button>
+				</div>
+				<div class="col-12 col-md-4 mb-3 text-center border-bottom">
+					<img class="img-fluid"src="img/producto3.png" alt="Calcetas">
+					<h3 class="py-3">Cera Depiladora</h3>
+					<span class="d-block precio lead font-weight-bolder pb-3">$350 <sup>mxn</sup></span>
+					<button class="btnRosa mb-3 px-5 py-2">Comprar</button>
+				</div>
+			</div>
+
+			
+			<div class="row pb-5">
+				
+				<div class="col-12 col-md-4 mb-3 border-bottom text-center">
+					<img class="img-fluid"src="img/producto1.png" alt="Calcetas">
+					<h3 class="py-3">Calcetines</h3>
+					<span class="d-block precio lead font-weight-bolder pb-3">$350 <sup>mxn</sup></span>
+					<button class="btnRosa px-5 mb-3 py-2">Comprar</button>
+				</div>
+				<div class="col-12 col-md-4 mb-3 text-center border-bottom">
+					<img class="img-fluid"src="img/producto2.png" alt="Calcetas">
+					<h3 class="py-3">Crema</h3>
+					<span class="d-block precio lead font-weight-bolder pb-3">$350 <sup>mxn</sup></span>
+					<button class="btnRosa px-5 mb-3 py-2">Comprar</button>
+				</div>
+				<div class="col-12 col-md-4 mb-3 text-center border-bottom">
+					<img class="img-fluid"src="img/producto3.png" alt="Calcetas">
+					<h3 class="py-3">Cera Depiladora</h3>
+					<span class="d-block precio lead font-weight-bolder pb-3">$350 <sup>mxn</sup></span>
+					<button class="btnRosa mb-3 px-5 py-2">Comprar</button>
+				</div>
+			</div>
+			<!---TERMINA SECCION DE TIENDA-->
+			
+
+
+
+		<div class="container h-100 p-5 my-5" id="inicio" style="background:url('img/portada.jpg');
+			background-attachment: fixed;
+			height: 100vh;
+			/*Background SIZE cover es para  es para ajustar el tamaño de la iamgen en el header*/
+			background-size: cover; font-family: 'Delius Unicase', cursive;
+			 ;">
+			<div class="row h-100">
+				<div class="col-12 h-auto align-self-center text-center text-danger fondo-blanco py-5 shadow-lg rounded-pill">
+					<h1 id="rebajas" >BIENVENIDO</h1>
+				</div>
+			</div>
+		</div>
+	
+
+
+			<!---SECCION DE REBAJAS-->
+
+			<div class="row mb-5">
+				<div class="col-12 text-right pb-5">
+					<h2 class="d-inline-block p-3 rounded" >Rebajas Navideñas</h2>
+				</div>
+
+			<div class="col-12 col-md-6 mb-5">
+				<img class="img-fluid" src="img/rebajas1.jpg" alt="Rebajas 60%">
+			</div>
+			<div class="col-12 col-md-6">
+				<div class="row">
+					<div class="col-12">
+						<img class="img-fluid" src="img/rebajas2.jpg" alt="Rebajas carrito">
+					</div>
+					<div class="col-12 mt-5">
+						<img class="img-fluid" src="img/rebajas3.jpg" alt="Rebajas chica comprando">
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</main>
+	<footer class="bg-danger">
+		<div class="container">
+			<div class="row py-3">
+				<div class="col-12 text-center ">
+					<p class="m-0 text-white lead">Girl Shop. Todos los derechos Reservados </p>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+	
+	
+	<div class="position-fixed btnWhats">
+		<a href="https://wa.me/50378304917" target="blank">
+			<img class="img-fluid" src="img/whatsapp.png" alt="botón de whatsapp">
+		</a>
+		
+	</div>
+
+	<div class="position-fixed btnFacebook">
+		<a href="https://www.facebook.com" target="blank">
+			<img class="img-fluid" src="img/facebook.png" alt="botón de whatsapp">
+		</a>
+		
+	</div>
+
+	<div class="position-fixed btnInstagram">
+		<a href="https://www.instagram.com" target="blank">
+			<img class="img-fluid" src="img/instagran.png" alt="botón de whatsapp">
+		</a>
+		
+	</div>
+	
+
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+	
+
+</body>
+</html>
